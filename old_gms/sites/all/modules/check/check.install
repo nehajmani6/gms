@@ -1,0 +1,27 @@
+<?php
+
+// $Id$
+
+/**
+* Implementation of hook_install().
+*/
+
+function check_install(){
+
+  // Use schema API to create database table.
+  drupal_install_schema('check');
+  echo "hello it works";
+}
+
+/**
+* Implementation of hook_uninstall().
+*/
+
+function check_uninstall(){
+  // Use schema API to delete database table.
+  drupal_uninstall_schema('check');
+  echo "bye";
+ 
+  
+}
+

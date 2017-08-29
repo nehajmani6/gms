@@ -1,0 +1,9 @@
+name = mymodule
+description = test proof of concept module
+;package = public-action
+version = VERSION
+core = 7.x
+files[] = mymodule.module
+
+version = "7.0"
+project="drupal1"

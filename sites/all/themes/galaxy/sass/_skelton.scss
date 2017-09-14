@@ -1,0 +1,126 @@
+
+#main_content{
+  display: inline;
+  margin-bottom: 2.7%;
+  float:right;
+  width:100%;
+}
+
+#sidebar-first {
+  color: #888;
+  float: left;
+}
+
+#sidebar-second {
+  color: #888;
+  float: right;
+}
+
+aside .block{
+  padding: .5em 1em;
+  margin-bottom: 5px;
+}
+
+#sidebar-first {
+  color: #888;
+  float: left;
+}
+
+#sidebar-second {
+  color: #888;
+  float: right;
+}
+
+/* 3 columns */
+
+body.two-sidebars .content-sidebar-wrap {
+  width: 78%;
+}
+
+body.two-sidebars #main_content {
+  width: 52%;
+  float: left;
+}
+
+body.two-sidebars #sidebar-first {
+  width: 22%;
+  margin-right: 1.5em;
+}
+
+body.two-sidebars #sidebar-second {
+  width: 22%;
+  margin-left: 1.5em;
+}
+
+/* 2 columns: sidebar-first */
+
+body.sidebar-first .content-sidebar-wrap {
+  width: 100%;
+}
+
+body.sidebar-first #main_content {
+  width: 76%;
+}
+
+body.sidebar-first #sidebar-first {
+  width: 22%;
+  margin-right: 1.5em;
+}
+
+/* 2 columns: sidebar-second */
+
+body.sidebar-second #main_content {
+  width: 76%;
+  float: left;
+}
+
+
+body.sidebar-second #sidebar-second {
+  width: 22%;
+  float: right;
+  margin-left: 1.5em;
+}
+
+
+.show-grid {
+  background-color: $grey_light;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color: rgb(50, 58, 69);
+  font-size: 13px;
+  line-height: 40px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  min-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: background 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s;
+  -moz-transition: background 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s;
+  -o-transition: background 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s;
+  transition: background 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s;
+}
+
+
+.show-grid:hover{
+  background-color: $green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

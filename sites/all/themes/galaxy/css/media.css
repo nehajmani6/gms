@@ -1,0 +1,174 @@
+@media screen and (max-width: 1152px) {
+  body.sidebar-first #main_content,
+  body.sidebar-second #main_content {
+    width: 73%; }
+
+  body.two-sidebars #main_content {
+    width: 47%; }
+
+  body.sidebar-first #sidebar-first,
+  body.sidebar-second #sidebar-second,
+  body.two-sidebars #sidebar-first,
+  body.two-sidebars #sidebar-second {
+    width: 24%; } }
+@media screen and (max-width: 960px) {
+  /*Banner*/
+  .carousel-control {
+    font-size: 3em; }
+
+  .carousel-control.right {
+    right: 0; }
+
+  .carousel-control.left {
+    left: 0; }
+
+  #logo {
+    float: none;
+    text-align: center; }
+
+  .region-slideshow #myCarousel h2 {
+    font-size: 24px;
+    padding: 3px 13px; }
+
+  .region-slideshow #myCarousel .slider_content p {
+    font-size: 14px; }
+
+  #main_header {
+    padding: 0; }
+
+  #myCarousel {
+    margin: 0; }
+
+  #block-search-form .form-item-search-block-form {
+    width: 80%; }
+
+  #block-search-form .form-submit {
+    font-size: 13px; }
+
+  #block-search-form .form-actions {
+    width: 20%; }
+
+  #block-search-form .container-inline {
+    width: 90%; }
+
+  .container.portfolio {
+    padding: 0 1em; }
+
+  footer.main {
+    padding: 0 1em 1em 1em; }
+
+  .menu-navigation-container {
+    -webkit-border-radius: 0 5px;
+    -moz-border-radius: 0 5px;
+    border-radius: 0 5px;
+    overflow: hidden; }
+
+  #main-menu {
+    clear: both;
+    width: 100%;
+    padding: 0 5px; }
+    #main-menu ul {
+      display: none;
+      margin: 0;
+      position: inherit; }
+    #main-menu .nav-toggle {
+      display: block; }
+    #main-menu li {
+      width: 100%; }
+      #main-menu li a {
+        text-align: center;
+        padding: 0.5em 0;
+        width: 100%;
+        color: #FFF;
+        text-shadow: none;
+        font-weight: normal;
+        background-color: #555;
+        text-align: center;
+        border-bottom: 1px solid #333333;
+        border-top: 1px solid #777777;
+        text-shadow: 1px 1px 1px #333333; }
+    #main-menu li:hover a,
+    #main-menu li a:hover,
+    #main-menu li a.active {
+      background-color: #444;
+      border-bottom: 1px solid #333333;
+      border-top: 1px solid #333333;
+      background-image: none; }
+    #main-menu .expanded ul {
+      position: inherit; }
+    #main-menu .expanded li a {
+      font-size: 14px;
+      width: 100%;
+      background-color: #777;
+      text-align: center;
+      padding: 0.5em 0;
+      border-bottom: 1px solid #444444;
+      border-top: 1px solid #777777;
+      text-shadow: 1px 1px 1px #333333;
+      color: #B9B8B8; }
+      #main-menu .expanded li a:hover {
+        color: #ddd;
+        background-color: #444;
+        border-bottom: 1px solid #333333;
+        border-top: 1px solid #333333; }
+    #main-menu .expanded li li a {
+      background: #666866; }
+    #main-menu .expanded ul ul {
+      left: 0;
+      display: none;
+      position: relative; }
+
+  .drop-down-toggle {
+    display: block; }
+
+  #main-menu li li .drop-down-toggle {
+    top: 5px; }
+
+  body {
+    padding: 0; }
+
+  aside {
+    width: 100%; }
+
+  body.sidebar-first #sidebar-first,
+  body.sidebar-first #main_content,
+  body.sidebar-second #sidebar-second,
+  body.sidebar-second #main_content,
+  body.two-sidebars #sidebar-first,
+  body.two-sidebars #main_content,
+  body.two-sidebars #sidebar-second {
+    width: 100%;
+    padding: 0 1em;
+    margin: 0; }
+
+  aside .block {
+    padding: 0;
+    margin: 0; }
+
+  .not-front .page_title_wrapper {
+    padding: 0 10px; }
+    .not-front .page_title_wrapper .page-title {
+      margin: 0;
+      text-align: center; }
+    .not-front .page_title_wrapper .breadcrumb {
+      margin: 0 0 5px 0;
+      width: 100%; }
+
+  .no-sidebars #main_content {
+    padding: 0 10px; }
+
+  .view-portfolio .views-row .views-field-field-porfolio-image-1 a {
+    right: 15%; }
+
+  .view-portfolio .views-row .views-field-view-node a {
+    left: 33%; }
+
+  .page-contact #main_content, .page-contact .region-contact-map {
+    width: 100% !important; }
+
+  .page-contact footer {
+    margin: 0; } }
+@media screen and (max-width: 440px) {
+  #myCarousel button {
+    font-size: 14px;
+    padding: 6px 10px; } }
